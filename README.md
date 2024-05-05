@@ -7,11 +7,14 @@ Les graphiques initiaux sont générés via des équations arbitraires définies
 
 ## Installation
 1. Cloner le dépôt GitHub :
+
 '''
     git clone https://github.com/mara0896/LBIRA2130_Couverts.git
 
 '''
+
 2. Installer les dépendances nécessaires
+
 '''
     pip install pandas
     pip install matplotlib
