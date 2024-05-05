@@ -7,18 +7,15 @@ Les graphiques initiaux sont générés via des équations arbitraires définies
 
 ## Installation
 1. Cloner le dépôt GitHub :
-
-'''
+```
     git clone https://github.com/mara0896/LBIRA2130_Couverts.git
-
-'''
+```
 
 2. Installer les dépendances nécessaires
-
-'''
+```
     pip install pandas
     pip install matplotlib
-'''
+```
 
 ## Utilisation
 Avant toute exécution, il est important de s'assurer que l'on dispose d'un fichier Excel intitulé 'mesures_couverts.xlsx' contenant les données expérimentales de l'expérience.
