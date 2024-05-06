@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 # DATA ---------------------------------------------------------------------------------
 data = pd.read_excel('mesures_couverts.xlsx')
 
-# analyse et traitement des NA etc
+# analyse et traitement des données
+
 
 
 # ANALYSE DE PH ------------------------------------------------------------------------
