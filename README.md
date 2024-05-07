@@ -25,10 +25,12 @@ Le fichier Excel est de la forme d'un tableau constitué des colonnes suivantes 
 | Colonne          | Description                                    |
 |------------------|------------------------------------------------|
 | annee            | Nombre entier entre 1 et 25 représentant le nombre d'années passées depuis le début de l'expérience |
-| date             | Date exacte des mesures au format DD/MM/YY
+| date             | Date exacte des mesures au format DD/MM/YY |
+| saison           | Saison au moment de la mesure. Choix multiple entre printemps, été, automne et hiver |
 | ID_planche       | Identifiant de la planche entre 1 et 10 suivi de a ou b |
 | couvert          | Type de couvert présent sur la planche. Choix multiple entre : bache, melilot_moha, paille, BRF et trefles |
 | culture          | Type de culture présent sur la planche au moment des mesures. Choix multiple entre : oignons, haricots, courges, epinards et choux |
+| annee_rotation   | Phase de la rotation dans laquelle on se trouve. 1 pour l'année avec des oignons et des haricots, 2 pour l'année avec des courges mixes et 3 pour l'année avec des épinards et des choux |
 | pH_KCl           | PH KCl mesuré lors de l'analyse de sol. Adimensionnel |
 | pH_H2O           | PH H2O mesuré lors de l'analyse de sol. Adimensionnel |
 | N                | Taux en azote mesuré en % en laboratoire |
