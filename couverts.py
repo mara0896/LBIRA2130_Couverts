@@ -3,11 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# DATA ---------------------------------------------------------------------------------
-data = pd.read_excel('mesures_couverts.xlsx')
+# DONNEES EXPERIMENTALES --------------------------------------------------------------
+data_exp = pd.read_excel('mesures_couverts.xlsx')
 
-# analyse et traitement des données
 
+# DONNES THEORIQUES --------------------------------------------------------------------
+data_th = pd.read_excel('')
 
 
 # ANALYSE DE PH ------------------------------------------------------------------------
