@@ -59,18 +59,19 @@ Chaque ligne représente une date à laquelle on a réalisé des mesures. Le fic
 
 
 Une fois que le fichier Excel est bien en forme, le code principal peut être exécuté pour générer les graphiques :
-'''
+
+```
     python couverts.py
-'''
+```
 Si l'utilisateur veut changer les paramètres des graphiques retournés, il peut se rendre à la fin du code dans la partie "UTILISATEURS" qui détaille la sortie de chaque fonction ainsi que les arguments nécessaires à son fonctionnement.
 
 Dans toutes les fonctions utilisables de ce fichier, les mêmes paramètres sont utilisés. L'utilisateur peut choisir entre plusieurs possibilités :
  
-    - data : 'data_th' ou 'data_exp' qui correpondent respectivement aux données théoriques indiquant la tendance supposée des mesures et aux données expérimentales encodées dans le fichier Excel correspondant lors de l'expérience
-    - annee : un nombre entier entre 1 et 25 qui correspond au nombre d'année où l'on se situe dans l'expérience
-    - couvert : 'bache', 'paille', 'melilot_moha', 'BRF' ou 'trefles'
-    - culture : 'oignons', 'haricots', 'courges', 'epinards' ou 'choux'
-    - type  : utilisés dans deux des fonctions proposées. Les choix possibles seront spécifiés au moment de l'appel de la fonction.
+* data : 'data_th' ou 'data_exp' qui correpondent respectivement aux données théoriques indiquant la tendance supposée des mesures et aux données expérimentales encodées dans le fichier Excel correspondant lors de l'expérience
+* annee : un nombre entier entre 1 et 25 qui correspond au nombre d'année où l'on se situe dans l'expérience
+* couvert : 'bache', 'paille', 'melilot_moha', 'BRF' ou 'trefles'
+* culture : 'oignons', 'haricots', 'courges', 'epinards' ou 'choux'
+* type  : utilisés dans deux des fonctions proposées. Les choix possibles seront spécifiés au moment de l'appel de la fonction.
 
 
 une fois le code tourné, les graphiques résultants seront sauvergardés sous format '.PNG' dans le dossier 'output'.
