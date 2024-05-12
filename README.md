@@ -2,7 +2,7 @@
 
 ## Aperçu
 Ce projet vise à visualiser l'évolution de différentes mesures prises dans des cultures maraîchères biologiques en fonction de l'utilisation de différents types de couverts permanents. 
-Les graphiques initiaux sont générés via des équations arbitraires définies après une recherche bibliographique approfondie présentée dans le rapport de ce projet à la section 4.4.2. L'objectif est d'affiner les courbes d'évolution au fil de l'expérience en y ajoutant des données expérimentales.
+Les graphiques initiaux sont générés via des chiffres aléatoires suivant entre autre des tendances définies après une recherche bibliographique présentée dans le [Rapport de ce projet](Rapport_de_projet.pdf) à la section 4.4.2. L'objectif est de réussir à obtenir de nouveaux graphiques des courbes d'évolution au fil de l'expérience en utilisant un tableau de données expérimentales au lieu des données arbitraires initialement présentées.
 
 
 ## Installation
