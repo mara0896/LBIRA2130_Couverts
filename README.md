@@ -79,7 +79,13 @@ une fois le code tourné, les graphiques résultants seront sauvergardés sous f
 ## Exemples
 Ici, nous présentons le type d'images générées par le code :
 
-%TODO
+![alt text](./Outputs/barchart_ph2.png)
+
+![alt text](./Outputs/time_element.png)
+
+![alt text](./Outputs/barchart_granulo.png)
+
+![alt text](./Outputs/profil_humidite.png)
 
 
 ## Licence
